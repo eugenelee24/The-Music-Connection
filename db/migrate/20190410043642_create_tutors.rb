@@ -11,7 +11,7 @@ class CreateTutors < ActiveRecord::Migration
       t.string :experiences
       t.string :in_class
       t.string :instruments
-      t.string :time_availavility
+      t.string :time_availability
       t.string :preferred_grade
       t.string :private
       t.string :piano

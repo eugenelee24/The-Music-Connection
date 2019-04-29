@@ -9,6 +9,7 @@ class CreateParents < ActiveRecord::Migration
       t.string :grade
       t.string :instruments
       t.string :experiences
+      t.string :time_availability
       t.string :pastapp
       t.string :lunch
       t.timestamps null: false

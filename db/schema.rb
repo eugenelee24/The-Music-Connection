@@ -22,10 +22,11 @@ ActiveRecord::Schema.define(version: 20190410043642) do
     t.string   "grade"
     t.string   "instruments"
     t.string   "experiences"
+    t.string   "time_availability"
     t.string   "pastapp"
     t.string   "lunch"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
   end
 
   create_table "teachers", force: :cascade do |t|
@@ -35,7 +36,7 @@ ActiveRecord::Schema.define(version: 20190410043642) do
     t.string   "class_name"
     t.string   "school_name"
     t.string   "grade"
-    t.string   "time_availavility"
+    t.string   "time_availability"
     t.string   "start_date"
     t.string   "end_date"
     t.string   "instruments"
@@ -55,7 +56,7 @@ ActiveRecord::Schema.define(version: 20190410043642) do
     t.string   "experiences"
     t.string   "in_class"
     t.string   "instruments"
-    t.string   "time_availavility"
+    t.string   "time_availability"
     t.string   "preferred_grade"
     t.string   "private"
     t.string   "piano"
