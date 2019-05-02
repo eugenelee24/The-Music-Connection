@@ -41,8 +41,6 @@ When /^(?:|I )fill in "([^"]*)" with "([^"]*)"$/ do |field, value|
     field = "question[name]"
   when /^Email/
     field = "question[email]"
-  when /^Name/
-    field = "question[name]"
   when /^SID/
     field = "question[sid]"
   when /^Phone Number/
